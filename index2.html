@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Click Example</title>
+
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;      
+      background: #f0f0f0;
+      margin: 0;
+    }
+
+    .btn {
+      color: white;
+      background-color: blueviolet;
+      border: none;
+      padding: 12px 25px;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: indigo;
+    }
+
+    .ip {
+      display: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="allbtn">
+    <button class="btn">Click Me</button>
+  </div>
+
+  <input class="ip" type="file">
+
+<Script src="script4.js"></Script>
+</body>
+</html>
